@@ -1,0 +1,52 @@
+body{
+	background: black;
+	width: 400px;
+}
+
+#background{
+	background: white;
+	position: absolute;
+	left: 275px;
+	height: 300px;
+	width: 350px;
+	z-index: 0;
+}
+
+#arcade{
+	position: absolute;
+	left: 250px;
+	top: -50px;
+	z-index: 1
+}
+
+#title-box-on{
+	position: absolute;
+	z-index: 2;
+	left: 410px;
+	top: 165px;
+}
+
+#title-box-off{
+	position: absolute;
+	z-index: 1;
+	left: 410px;
+	top: 165px;
+}
+
+#title-box-on:active{
+	opacity: 0;
+}
+
+#interactive2{
+	position: absolute;
+	left: 335px;
+	top: 90px;
+	z-index: 3;
+}
+
+#designedby{
+	position: absolute;
+	left: 315px;
+	top: 223px;
+	z-index: 3;
+}

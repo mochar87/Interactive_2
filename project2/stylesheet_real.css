@@ -1,0 +1,3662 @@
+
+body{
+	background: black;
+	width: 1275px;
+	height: 75px;
+}
+
+#background{
+	position: absolute;
+	background: white;
+	height: 50px;
+	width: 1225px;
+	left: 25px;
+	top: 25px;
+	z-index: 1;
+}
+
+
+#arcade-w-on{
+	position: absolute;
+	top: 25px;
+	left: 16px;
+	z-index: 4;
+	webkit-transition: opacity;
+}
+
+#arcade-w-off{
+	position: absolute;
+	top: 25px;
+	left: 16px;
+	z-index: 3;	
+}
+
+#arcade-w-on:active{
+	opacity: 0;
+}
+
+#arcade-w-on:active ~ div:nth-child(98){
+	transform: translateY(-5px);
+}
+
+
+#a{ 
+	position: absolute;
+	left: 20px;
+	top: 15px;
+	z-index: 2;
+}
+
+#left-a {
+	position: absolute;
+	background: black;
+	height: 6px;
+	width: 1px;
+	top: 1px;
+}
+
+#right-a {
+	position: absolute;
+	background: black;
+	height: 6px;
+	width: 1px;
+	top: 1px;
+	left: 4px;
+}
+
+#crossbar-a{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 3px;
+	left: 1px;	
+}
+
+#top-a{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top:;
+	left: 1px;	
+}
+
+
+#arcade-b-on{
+	position: absolute;
+	top: 25px;
+	left: 41px;
+	z-index: 4;
+	webkit-transition: opacity;
+}
+
+#arcade-b-off{
+	position: absolute;
+	top: 25px;
+	left: 41px;
+	z-index: 3;	
+}
+
+#arcade-b-on:active{
+	opacity: 0;
+}
+
+#arcade-b-on:active ~ div:nth-child(99){
+	transform: translateY(-5px);
+}
+
+#b{
+	position: absolute;
+	left: 45px;
+	top: 15px;
+	z-index: 2;
+}
+
+#left-b{
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 1px;
+}
+
+#top-b{
+	position: absolute;
+	background: black;
+	width: 2px;
+	height: 1px;
+	left: 1px;
+}
+
+#crossbar-b{
+	position: absolute;
+	background: black;
+	width: 2px;
+	height: 1px;
+	left: 1px;
+	top: 2px;
+}
+
+#bottom-b{
+	position: absolute;
+	background: black;
+	width: 3px;
+	height: 1px;
+	left: 1px;
+	top: 6px;
+}
+
+#top-pix-b{
+	position: absolute;
+	background: black;
+	width: 1px;
+	height: 1px;
+	left: 3px;
+	top: 1px;
+}
+
+#bottom-pix-b{
+	position: absolute;
+	background: black;
+	width: 1px;
+	height: 1px;
+	left: 3px;
+	top: 3px;
+}
+
+#right-b{
+	position: absolute;
+	background: black;
+	width: 1px;
+	height: 2px;
+	left: 4px;
+	top: 4px;
+}
+
+
+#arcade-bl-on{
+	position: absolute;
+	top: 25px;
+	left: 66px;
+	z-index: 4;
+	webkit-transition: opacity;
+}
+
+#arcade-bl-off{
+	position: absolute;
+	top: 25px;
+	left: 66px;
+	z-index: 3;	
+}
+
+#arcade-bl-on:active{
+	opacity: 0;
+}
+
+#arcade-bl-on:active ~ div:nth-child(100){
+	transform: translateY(-5px);
+}
+
+#c{
+	position: absolute;
+	left: 70px;
+	top: 15px;
+}
+
+#left-c{
+	position: absolute;
+	background: black;
+	top: 1px;
+	height: 5px;
+	width: 1px;
+}
+
+#top-c {
+	position: absolute;
+	background: black;
+	left: 1px;
+	height: 1px;
+	width: 3px;
+}
+
+#top-pix-c{
+	position: absolute;
+	background: black;
+	width: 1px;
+	height: 1px;
+	left: 4px;
+	top: 1px;
+}
+
+#bottom-pix-c{
+	position: absolute;
+	background: black;
+	width: 1px;
+	height: 1px;
+	left: 4px;
+	top: 5px;
+}
+
+#bottom-c{
+	position: absolute;
+	background: black;
+	width: 3px;
+	height: 1px;
+	left: 1px;
+	top: 6px;
+}
+
+
+#arcade-y-on{
+	position: absolute;
+	top: 25px;
+	left: 91px;
+	z-index: 4;
+	webkit-transition: opacity;
+}
+
+#arcade-y-off{
+	position: absolute;
+	top: 25px;
+	left: 91px;
+	z-index: 3;	
+}
+
+#arcade-y-on:active{
+	opacity: 0;
+}
+
+#arcade-y-on:active ~ div:nth-child(101){
+	transform: translateY(-5px);
+}
+
+
+#d{
+	position: absolute;
+	left: 95px;
+	top: 15px;
+}
+
+#left-d{
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 1px;
+}
+
+#top-d{
+	position: absolute;
+	background: black;
+	width: 2px;
+	height: 1px;
+	left: 1px;
+}
+
+
+#bottom-d{
+	position: absolute;
+	background: black;
+	width: 2px;
+	height: 1px;
+	left: 1px;
+	top: 6px;
+}
+
+#top-pix-d{
+	position: absolute;
+	background: black;
+	width: 1px;
+	height: 1px;
+	left: 3px;
+	top: 1px;
+}
+
+#bottom-pix-d{
+	position: absolute;
+	background: black;
+	width: 1px;
+	height: 1px;
+	left: 3px;
+	top: 5px;
+}
+
+#right-d{
+	position: absolute;
+	background: black;
+	width: 1px;
+	height: 3px;
+	left: 4px;
+	top: 2px;
+}
+
+#arcade-p-on{
+	position: absolute;
+	top: 25px;
+	left: 116px;
+	z-index: 4;
+	webkit-transition: opacity;
+}
+
+#arcade-p-off{
+	position: absolute;
+	top: 25px;
+	left: 116px;
+	z-index: 3;	
+}
+
+#arcade-p-on:active{
+	opacity: 0;
+}
+
+#arcade-p-on:active ~ div:nth-child(102){
+	transform: translateY(-5px);
+}
+
+
+#e{
+	position: absolute;
+	left: 120px;
+	top: 15px;
+}
+
+#left-e{
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 1px;
+}
+
+#top-e {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 4px;
+}
+
+#crossbar-e{
+	position: absolute;
+	background: black;
+	width: 3px;
+	height: 1px;
+	left: 1px;
+	top: 3px;
+}
+
+#bottom-e{
+	position: absolute;
+	background: black;
+	width: 4px;
+	height: 1px;
+	top: 6px;
+}
+
+
+
+
+#nes-b-button-on{
+	position: absolute;
+	top: 25px;
+	left: 144px;
+	z-index: 6;
+}
+
+#nes-b-button-off{
+	position: absolute;
+	top: 25px;
+	left: 144px;
+	z-index: 4;
+}
+
+#nes-b-button-on:active{
+	opacity: 0;
+}
+
+#nes-b-button-on:active ~ div:nth-child(103){
+	transform: translateY(-5px);
+}
+
+
+#f{
+	position: absolute;
+	left: 147px;
+	top: 15px;
+}
+
+#left-f{
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 1px;
+}
+
+#top-f {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 4px;
+}
+
+#crossbar-f{
+	position: absolute;
+	background: black;
+	width: 3px;
+	height: 1px;
+	left: 1px;
+	top: 3px;
+}
+
+
+
+#nes-a-button-on{
+	position: absolute;
+	top: 25px;
+	left: 169px;
+	z-index: 5;
+}
+
+#nes-a-button-off{
+	position: absolute;
+	top: 25px;
+	left: 169px;
+	z-index: 4;
+}
+
+#nes-a-button-on:active{
+	opacity: 0;
+}
+
+#nes-a-button-on:active ~ div:nth-child(104){
+	transform: translateY(-5px);
+}
+
+
+#g{
+	position: absolute;
+	left: 171px;
+	top: 15px;
+}
+
+#left-g{
+	position: absolute;
+	background: black;
+	height: 5px;
+	top: 1px;
+	width: 1px;
+}
+
+#top-g {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;
+}
+
+#top-pix-g{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top:1px;
+	left: 4px;	
+}
+
+#crossbar-g{
+	position: absolute;
+	background: black;
+	width: 3px;
+	height: 1px;
+	left: 2px;
+	top: 3px;
+}
+
+#bottom-g{
+	position: absolute;
+	background: black;
+	width: 3px;
+	height: 1px;
+	left: 1px;
+	top: 6px;
+}
+
+#right-g{
+	position: absolute;
+	background: black;
+	height: 2px;
+	width: 1px;
+	top: 4px;
+	left: 4px;	
+}
+
+
+
+
+
+
+#nes-start-button-on{
+	position: absolute;
+	top: 26px;
+	left: 194px;
+	z-index: 6;
+}
+
+#nes-start-button-off{
+	position: absolute;
+	top: 26px;
+	left: 194px;
+	z-index: 5;
+}
+
+#nes-start-button-on:active{
+	opacity: 0;
+}
+
+#nes-start-button-on:active ~ div:nth-child(105){
+	transform: translateY(-5px);
+}
+
+
+#h{ 
+	position: absolute;
+	left: 197px;
+	top: 15px;
+}
+
+#left-h {
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 1px;
+}
+
+#right-h {
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 1px;
+	left: 4px;
+}
+
+#crossbar-h{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 3px;
+	left: 1px;	
+}
+
+
+#nes-select-button-on{
+	position: absolute;
+	top: 26px;
+	left: 219px;
+	z-index: 6;
+}
+
+#nes-select-button-off{
+	position: absolute;
+	top: 26px;
+	left: 219px;
+	z-index: 5;
+}
+
+#nes-select-button-on:active{
+	opacity: 0;
+}
+
+#nes-select-button-on:active ~ div:nth-child(106){
+	transform: translateY(-5px);
+}
+
+
+#i{ 
+	position: absolute;
+	left: 223px;
+	top: 15px;
+}
+
+#center-i {
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 1px;
+	left: 1px
+}
+
+#top-i {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+}
+
+#bottom-i{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 6px;	
+}
+
+
+
+
+
+#snes-b-button-on{
+	position: absolute;
+	left: 247px;
+	top: 26px;
+	z-index: 5;
+}
+
+#snes-b-button-off{
+	position: absolute;
+	left: 247px;
+	top: 26px;
+	z-index: 4;
+}
+
+#snes-b-button-on:active{
+	opacity: 0;
+}
+
+#snes-b-button-on:active ~ div:nth-child(107){
+	transform: translateY(-5px);
+}
+
+#j{ 
+	position: absolute;
+	left: 249px;
+	top: 15px;
+}
+
+#right-j {
+	position: absolute;
+	background: black;
+	height: 6px;
+	width: 1px;
+	left: 4px
+}
+
+#top-j {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;
+}
+
+#bottom-j{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 6px;
+	left: 1px;	
+}
+
+#left-j{
+	position: absolute;
+	background: black;
+	height: 2px;
+	width: 1px;
+	top: 4px;	
+}
+
+
+
+#snes-a-button-on{
+	position: absolute;
+	left: 273px;
+	top: 26px;
+	z-index: 5;
+}
+
+#snes-a-button-off{
+	position: absolute;
+	left: 273px;
+	top: 26px;
+	z-index: 4;
+}
+
+#snes-a-button-on:active{
+	opacity: 0;
+}
+
+#snes-a-button-on:active ~ div:nth-child(108){
+	transform: translateY(-5px);
+}
+
+
+#k{ 
+	position: absolute;
+	left: 275px;
+	top: 15px;
+}
+
+#left-k {
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 1px;
+}
+
+#crossbar-k {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 2px;
+	left: 1px;
+	top: 2px;
+}
+
+#top-top-pix-k{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 4px;	
+}
+
+#top-pix-k{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 3px;
+	top: 1px;	
+}
+
+#bottom-pix-k{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 3px;
+	top: 3px;	
+}
+
+#right-k{
+	position: absolute;
+	background: black;
+	height: 3px;
+	width: 1px;
+	top: 4px;
+	left: 4px	
+}
+
+
+
+
+#snes-y-button-on{
+	position: absolute;
+	left: 299px;
+	top: 26px;
+	z-index: 5;
+}
+
+#snes-y-button-off{
+	position: absolute;
+	left: 299px;
+	top: 26px;
+	z-index: 4;
+}
+
+#snes-y-button-on:active{
+	opacity: 0;
+}
+
+#snes-y-button-on:active ~ div:nth-child(109){
+	transform: translateY(-5px);
+}
+
+
+#l{ 
+	position: absolute;
+	left: 301px;
+	top: 15px;
+}
+
+#left-l {
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 1px;
+}
+
+#bottom-l{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 4px;
+	top: 6px;
+	left: 1px;	
+}
+
+
+
+
+#snes-x-button-on{
+	position: absolute;
+	left: 325px;
+	top: 26px;
+	z-index: 5;
+}
+
+#snes-x-button-off{
+	position: absolute;
+	left: 325px;
+	top: 26px;
+	z-index: 4;
+}
+
+#snes-x-button-on:active{
+	opacity: 0;
+}
+
+#snes-x-button-on:active ~ div:nth-child(110){
+	transform: translateY(-5px);
+}
+
+
+
+#m{ 
+	position: absolute;
+	left: 327px;
+	top: 15px;
+}
+
+#left-m {
+	position: absolute;
+	background: black;
+	height: 6px;
+	width: 1px;
+	top: 1px;
+}
+
+#left-top-m{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 2px;
+	left: 1px;	
+}
+
+#center-m {
+	position: absolute;
+	background: black;
+	height: 6px;
+	width: 1px;
+	top: 1px;
+	left: 3px;
+}
+
+#right-top-m{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 2px;
+	left: 4px;	
+}
+
+#right-m {
+	position: absolute;
+	background: black;
+	height: 6px;
+	width: 1px;
+	top: 1px;
+	left: 6px;
+}
+
+
+
+
+#snes-start-button-on{
+	position: absolute;
+	left: 351px;
+	top: 26px;
+	z-index: 5;
+}
+
+#snes-start-button-off{
+	position: absolute;
+	left: 351px;
+	top: 26px;
+	z-index: 4;
+}
+
+#snes-start-button-on:active{
+	opacity: 0;
+}
+
+#snes-start-button-on:active ~ div:nth-child(111){
+	transform: translateY(-5px);
+}
+
+
+
+#n{ 
+	position: absolute;
+	left: 353px;
+	top: 15px;
+}
+
+#left-n {
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 1px;
+}
+
+#top-pixel-n{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 1px;
+	top: 1px;	
+}
+
+#center-pixel-n {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 2px;
+	left: 2px;
+}
+
+#bottom-pixel-n{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 3px;
+	top: 3px;	
+}
+
+#right-n {
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 1px;
+	left: 4px;
+}
+
+
+
+
+
+#snes-select-button-on{
+	position: absolute;
+	left: 377px;
+	top: 26px;
+	z-index: 5;
+}
+
+#snes-select-button-off{
+	position: absolute;
+	left: 377px;
+	top: 26px;
+	z-index: 4;
+}
+
+#snes-select-button-on:active{
+	opacity: 0;
+}
+
+#snes-select-button-on:active ~ div:nth-child(112){
+	transform: translateY(-5px);
+}
+
+#o{ 
+	position: absolute;
+	left: 379px;
+	top: 15px;
+}
+
+#left-o {
+	position: absolute;
+	background: black;
+	height: 5px;
+	width: 1px;
+	top: 1px;
+
+}
+
+#top-o{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;	
+}
+
+#bottom-o {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 6px;
+	left: 1px;
+}
+
+#right-o {
+	position: absolute;
+	background: black;
+	height: 5px;
+	width: 1px;
+	left: 4px;
+	top: 1px;
+}
+
+
+
+
+
+
+
+#n64-b-button-on{
+	position: absolute;
+	left: 403px;
+	top: 26px;
+	z-index: 6;
+}
+
+#n64-b-button-off{
+	position: absolute;
+	left: 403px;
+	top: 26px;
+	z-index: 5;
+}
+
+#n64-b-button-on:active{
+	opacity: 0;
+}
+
+#n64-b-button-on:active ~ div:nth-child(113){
+	transform: translateY(-5px);
+}
+
+#p{ 
+	position: absolute;
+	left: 405px;
+	top: 15px;
+}
+
+#left-p {
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 1px;
+}
+
+
+#top-p{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;	
+}
+
+#bottom-p {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 2px;
+	top: 4px;
+	left: 1px;
+}
+
+#right-p {
+	position: absolute;
+	background: black;
+	height: 2px;
+	width: 1px;
+	left: 4px;
+	top: 1px;
+}
+
+#pixel-p {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 3px;
+	top: 3px;
+}
+
+
+
+
+#n64-a-button-on{
+	position: absolute;
+	left: 429px;
+	top: 26px;
+	z-index: 5;
+}
+
+#n64-a-button-off{
+	position: absolute;
+	left: 429px;
+	top: 26px;
+	z-index: 4;
+}
+
+#n64-a-button-on:active{
+	opacity: 0;
+}
+
+#n64-a-button-on:active ~ div:nth-child(114){
+	transform: translateY(-5px);
+}
+
+
+#q{ 
+	position: absolute;
+	left: 431px;
+	top: 15px;
+}
+
+#left-q {
+	position: absolute;
+	background: black;
+	height: 5px;
+	width: 1px;
+	top: 1px;
+
+}
+
+#top-q{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;	
+}
+
+#bottom-q {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 2px;
+	top: 6px;
+	left: 1px;
+}
+
+#right-q {
+	position: absolute;
+	background: black;
+	height: 4px;
+	width: 1px;
+	left: 4px;
+	top: 1px;
+}
+
+#top-pixel-q{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 2px;
+	top: 4px;
+}
+
+#center-pixel-q{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 3px;
+	top: 5px;
+}
+
+#bottom-pixel-q{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 4px;
+	top: 6px;
+}
+
+
+
+
+
+#n64-c-top-on{
+	position: absolute;
+	left: 455px;
+	top: 26px;
+	z-index: 6;
+	height: 2px;
+	width: 4px;
+}
+
+#n64-c-top-off{
+	position: absolute;
+	left: 455px;
+	top: 26px;
+	z-index: 4;
+	height: 2px;
+	width: 4px;
+}
+
+#n64-c-top-on:active{
+	opacity: 0;
+}
+
+#n64-c-top-on:active ~ div:nth-child(115){
+	transform: translateY(-5px);
+}
+
+
+#r{ 
+	position: absolute;
+	left: 457px;
+	top: 15px;
+}
+
+#left-r {
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 1px;
+}
+
+
+#top-r{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;	
+}
+
+#bottom-r {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 2px;
+	top: 4px;
+	left: 1px;
+}
+
+#right-r {
+	position: absolute;
+	background: black;
+	height: 2px;
+	width: 1px;
+	left: 4px;
+	top: 1px;
+}
+
+#middle-pixel-r {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 3px;
+	top: 3px;
+}
+
+#top-pixel-r {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 3px;
+	top: 5px;
+}
+
+#bottom-pixel-r {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 4px;
+	top: 6px;
+}
+
+
+
+
+
+
+#n64-c-bottom-on{
+	position: absolute;
+	left: 481px;
+	top: 26px;
+	z-index: 5;
+	height: 2px;
+	width: 4px;
+}
+
+#n64-c-bottom-off{
+	position: absolute;
+	left: 481px;
+	top: 26px;
+	z-index: 4;
+	height: 2px;
+	width: 4px;
+}
+
+#n64-c-bottom-on:active{
+	opacity: 0;
+}
+
+#n64-c-bottom-on:active ~ div:nth-child(116){
+	transform: translateY(-5px);
+}
+
+
+#s{ 
+	position: absolute;
+	left: 483px;
+	top: 15px;
+}
+
+#left-s {
+	position: absolute;
+	background: black;
+	height: 2px;
+	width: 1px;
+	top: 1px;
+}
+
+#top-s{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;	
+}
+
+#crossbar-s {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 4px;
+	top: 3px;
+}
+
+#right-s {
+	position: absolute;
+	background: black;
+	height: 3px;
+	width: 1px;
+	left: 4px;
+	top: 3px;
+}
+
+#bottom-s {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;
+	top: 6px;
+}
+
+#top-pixel-s {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 4px;
+	top: 1px;
+}
+
+#bottom-pixel-s {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 5px;
+}
+
+
+
+
+
+#n64-c-left-on{
+	position: absolute;
+	left: 507px;
+	top: 26px;
+	z-index: 6;
+}
+
+#n64-c-left-off{
+	position: absolute;
+	left: 507px;
+	top: 26px;
+	z-index: 4;
+}
+
+#n64-c-left-on:active{
+	opacity: 0;
+}
+
+#n64-c-left-on:active ~ div:nth-child(117){
+	transform: translateY(-5px);
+}
+
+
+#t{ 
+	position: absolute;
+	left: 509px;
+	top: 15px;
+}
+
+#top-t {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 5px;
+}
+
+#center-t{
+	position: absolute;
+	background: black;
+	height: 6px;
+	width: 1px;
+	top: 1px;
+	left: 2px;	
+}
+
+
+
+
+
+
+
+#n64-c-right-on{
+	position: absolute;
+	left: 533px;
+	top: 26px;
+	z-index: 5;
+}
+
+#n64-c-right-off{
+	position: absolute;
+	left: 533px;
+	top: 26px;
+	z-index: 4;
+}
+
+#n64-c-right-on:active{
+	opacity: 0;
+}
+
+#n64-c-right-on:active ~ div:nth-child(118){
+	transform: translateY(-5px);
+}
+
+#u{ 
+	position: absolute;
+	left: 535px;
+	top: 15px;
+}
+
+#left-u {
+	position: absolute;
+	background: black;
+	height: 6px;
+	width: 1px;
+}
+
+#bottom-u{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 6px;
+	left: 1px;	
+}
+
+#right-u {
+	position: absolute;
+	background: black;
+	height: 6px;
+	width: 1px;
+	left: 4px;
+}
+
+
+
+
+
+
+
+
+#n64-start-on{
+	position: absolute;
+	left: 559px;
+	top: 26px;
+	z-index: 5;
+}
+
+#n64-start-off{
+	position: absolute;
+	left: 559px;
+	top: 26px;
+	z-index: 4;
+}
+
+#n64-start-on:active{
+	opacity: 0;
+}
+
+#n64-start-on:active ~ div:nth-child(119){
+	transform: translateY(-5px);
+}
+
+
+#v{ 
+	position: absolute;
+	left: 561px;
+	top: 15px;
+}
+
+#left-v {
+	position: absolute;
+	background: black;
+	height: 6px;
+	width: 1px;
+}
+
+#bottom-v{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 2px;
+	top: 6px;	
+}
+
+#right-v {
+	position: absolute;
+	background: black;
+	height: 4px;
+	width: 1px;
+	left: 4px;
+}
+
+#bottom-pixel-v {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 2px;
+	top: 5px;
+}
+
+#top-pixel-v {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 3px;
+	top: 4px;
+}
+
+
+
+
+
+
+
+/*#n64-l-trigger{
+	position: absolute;
+	left: 423px;
+	top: 45px;
+	z-index: 0;
+}
+
+#n64-l-trigger:active{
+	transform: translateY(1px);
+}
+
+#n64-l-trigger:active ~ div:nth-child(120){
+	transform: translateY(-5px);
+}
+
+#n64-r-trigger{
+	position: absolute;
+	left: 458px;
+	top: 45px;
+	z-index: 0;
+}
+
+#n64-r-trigger:active{
+	transform: translateY(1px);
+}
+
+#n64-r-trigger:active ~ div:nth-child(121){
+	transform: translateY(-5px);
+}*/
+
+
+
+#gcn-b-on{
+	position: absolute;
+	left: 585px;
+	top: 26px;
+	z-index: 3;
+}
+
+#gcn-b-off{
+	position: absolute;
+	left: 585px;
+	top: 26px;
+	z-index: 2;
+}
+
+#gcn-b-on:active{
+	opacity: 0;
+}
+
+
+#gcn-b-on:active ~ div:nth-child(120){
+	transform: translateY(-5px);
+}
+
+
+#w{ 
+	position: absolute;
+	left: 587px;
+	top: 15px;
+}
+
+#left-w {
+	position: absolute;
+	background: black;
+	height: 6px;
+	width: 1px;
+}
+
+#left-bottom-w{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 2px;
+	left: 1px;	
+	top: 6px;
+}
+
+#center-w {
+	position: absolute;
+	background: black;
+	height: 6px;
+	width: 1px;
+	left: 3px;
+}
+
+#right-bottom-w{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 2px;
+	left: 4px;
+	top: 6px;	
+}
+
+#right-w {
+	position: absolute;
+	background: black;
+	height: 6px;
+	width: 1px;
+	left: 6px;
+}
+
+
+
+
+
+
+
+#gcn-a-on{
+	position: absolute;
+	top: 26px;
+	left: 611px;
+	z-index: 4;
+}	
+
+#gcn-a-off{
+	position: absolute;
+	top: 26px;
+	left: 611px;
+	z-index: 2;
+}
+
+#gcn-a-on:active{
+	opacity: 0;
+}
+
+#gcn-a-on:active ~ div:nth-child(121){
+	transform: translateY(-5px);
+}
+
+
+#x{ 
+	position: absolute;
+	left: 613px;
+	top: 15px;
+}
+
+#left-x {
+	position: absolute;
+	background: black;
+	height: 3px;
+	width: 1px;
+	top: 4px;
+}
+
+#right-x {
+	position: absolute;
+	background: black;
+	height: 3px;
+	width: 1px;
+	left: 4px;
+	top: 4px;
+}
+
+#top-left-pix-x{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+}
+
+#center-left-pix-x {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 1px;
+	top: 1px;
+}
+
+#bottom-left-pix-x{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 1px;
+	top: 3px;	
+}
+
+#top-right-pix-x{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 4px;
+}
+
+#center-right-pix-x {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 3px;
+	top: 1px;
+}
+
+#bottom-right-pix-x{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 3px;
+	top: 3px;	
+}
+
+#center-pixel-x{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 2px;
+	top: 2px;	
+}
+
+
+
+
+
+
+
+#gcn-y-on{
+	position: absolute;
+	top: 26px;
+	left: 637px;
+	z-index: 3;
+	height: 4px;
+	width: 8px;
+}	
+
+#gcn-y-off{
+	position: absolute;
+	top: 26px;
+	left: 637px;
+	z-index: 2;
+	height: 4px;
+	width: 8px;
+}
+
+#gcn-y-on:active{
+	opacity: 0;
+}
+
+
+#gcn-y-on:active ~ div:nth-child(122){
+	transform: translateY(-5px);
+}
+
+
+#y{ 
+	position: absolute;
+	left: 639px;
+	top: 15px;
+}
+
+#left-y {
+	position: absolute;
+	background: black;
+	height: 4px;
+	width: 1px;
+}
+
+#right-y {
+	position: absolute;
+	background: black;
+	height: 4px;
+	width: 1px;
+	left: 4px;
+}
+
+#center-y{
+	position: absolute;
+	background: black;
+	height: 2px;
+	width: 1px;
+	left: 2px;
+	top: 5px;
+}
+
+#left-pixel-y {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 1px;
+	top: 4px;
+}
+
+#right-pixel-y{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 3px;
+	top: 4px;	
+}
+
+
+
+
+
+
+
+
+#gcn-x-on{
+	position: absolute;
+	top: 26px;
+	left: 663px;
+	z-index: 3;
+	height: 4px;
+	width: 8px;
+}	
+
+#gcn-x-off{
+	position: absolute;
+	top: 26px;
+	left: 663px;
+	z-index: 2;
+	height: 4px;
+	width: 8px;
+}
+
+#gcn-x-on:active{
+	opacity: 0;
+}
+
+
+#gcn-x-on:active ~ div:nth-child(123){
+	transform: translateY(-5px);
+}
+
+
+#z{ 
+	position: absolute;
+	left: 665px;
+	top: 15px;
+}
+
+#top-z {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 5px;
+}
+
+#bottom-z {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 5px;
+	top: 6px;
+}
+
+#top-top-pixel-z{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 4px;
+	top: 1px;
+}
+
+#top-pixel-z {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 3px;
+	top: 2px;
+}
+
+#center-pixel-z{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 2px;
+	top: 3px;	
+}
+
+#bottom-pixel-z{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 1px;
+	top: 4px;	
+}
+
+#bottom-bottom-pixel-z{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 5px;	
+}
+
+
+
+
+
+
+
+
+#gcn-start-on{
+	position: absolute;
+	top: 26px;
+	left: 688px;
+	z-index: 3;
+	height: 4px;
+	width: 8px;
+}	
+
+#gcn-start-off{
+	position: absolute;
+	top: 26px;
+	left: 688px;
+	z-index: 2;
+	height: 4px;
+	width: 8px;
+}
+
+#gcn-start-on:active{
+	opacity: 0;
+}
+
+
+#gcn-start-on:active ~ div:nth-child(124){
+	transform: translateY(-5px);
+}
+
+
+
+#one{ 
+	position: absolute;
+	left: 691px;
+	top: 15px;
+}
+
+#top-1 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+}
+
+#center-1 {
+	position: absolute;
+	background: black;
+	height: 5px;
+	width: 1px;
+	top: 1px;
+	left: 2px;
+}
+
+#bottom-1{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 5px;
+	top: 6px;
+}
+
+
+/*#gcn-l-trigger{
+	position: absolute;
+	left: 530px;
+	top: 45px;
+	z-index: 0;
+}
+
+#gcn-l-trigger:active{
+	transform: translateY(2px);
+}
+
+
+
+#gcn-r-trigger{
+	position: absolute;
+	left: 562px;
+	top: 45px;
+	z-index: 0;
+}
+
+#gcn-r-trigger:active{
+	transform: translateY(2px);
+}
+
+#gcn-z{
+	position: absolute;
+	left: 564px;
+	top: 46px;
+	z-index: 0;
+}
+
+#gcn-z:active{
+	transform: translateY(2px);
+}*/
+
+
+
+
+#wii-a-on{
+	position: absolute;
+	top: 26px;
+	left: 715px;
+	z-index: 3;
+
+}
+
+#wii-a-off{
+	position: absolute;
+	top: 26px;
+	left: 715px;
+	z-index: 2;
+
+}
+
+#wii-a-on:active{
+	opacity: 0;
+
+}
+
+
+#wii-a-on:active ~ div:nth-child(125){
+	transform: translateY(-5px);
+}
+
+#two{ 
+	position: absolute;
+	left: 717px;
+	top: 15px;
+}
+
+#top-2 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;
+}
+
+#right-2 {
+	position: absolute;
+	background: black;
+	height: 2px;
+	width: 1px;
+	top: 1px;
+	left: 4px;
+}
+
+#bottom-2 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 5px;
+	top: 6px;
+}
+
+#left-pixel-2 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 1px;
+}
+
+#top-pixel-2 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 3px;
+	left: 3px;
+}
+
+#center-pixel-2 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 4px;
+	left: 2px;
+}
+
+
+#bottom-pixel-2 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 5px;
+	left: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#wii-minus-on{
+	position: absolute;
+	top: 26px;
+	left: 741px;
+	z-index: 3;
+}
+
+#wii-minus-off{
+	position: absolute;
+	top: 26px;
+	left: 741px;
+	z-index: 2;
+}
+
+#wii-minus-on:active{
+	opacity: 0;
+}
+
+#wii-minus-on:active ~ div:nth-child(126){
+	transform: translateY(-5px);
+}
+
+#three{ 
+	position: absolute;
+	left: 743px;
+	top: 15px;
+}
+
+#top-3 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;
+}
+
+#top-right-3 {
+	position: absolute;
+	background: black;
+	height: 2px;
+	width: 1px;
+	top: 1px;
+	left: 4px;
+}
+
+#bottom-3 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;
+	top: 6px;
+}
+
+#bottom-right-3 {
+	position: absolute;
+	background: black;
+	height: 2px;
+	width: 1px;
+	top: 4px;
+	left: 4px;
+}
+
+#top-pixel-3 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 1px;
+}
+
+#crossbar-3 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 3px;
+	left: 1px;
+}
+
+#bottom-pixel-3 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 5px;
+}
+
+
+
+
+#wii-plus-on{
+	position: absolute;
+	top: 26px;
+	left: 767px;
+	z-index: 3;
+}
+
+#wii-plus-off{
+	position: absolute;
+	top: 26px;
+	left: 767px;
+	z-index: 2;
+}
+
+#wii-plus-on:active{
+	opacity: 0;
+}
+
+#wii-plus-on:active ~ div:nth-child(127){
+	transform: translateY(-5px);
+}
+
+
+
+#four{ 
+	position: absolute;
+	left: 769px;
+	top: 15px;
+}
+
+#left-4 {
+	position: absolute;
+	background: black;
+	height: 5px;
+	width: 1px;
+}
+
+#right-4 {
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 1px;
+	left: 4px;
+}
+
+#crossbar-4{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 4px;
+	left: 1px;
+}
+
+
+#wii-one-on{
+	position: absolute;
+	top: 26px;
+	left: 793px;
+	z-index: 4;
+}
+
+#wii-one-off{
+	position: absolute;
+	top: 26px;
+	left: 793px;
+	z-index: 2;
+}
+
+#wii-one-on:active{
+	opacity: 0;
+}
+
+
+#wii-one-on:active ~ div:nth-child(128){
+	transform: translateY(-5px);
+}
+
+
+#five{ 
+	position: absolute;
+	left: 795px;
+	top: 15px;
+}
+
+#top-5 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 4px;
+	left: 1px;
+}
+
+#left-5 {
+	position: absolute;
+	background: black;
+	height: 3px;
+	width: 1px;
+}
+
+#crossbar-5{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 2px;
+	left: 1px;
+}
+
+#right-5{
+	position: absolute;
+	background: black;
+	height: 3px;
+	width: 1px;
+	top: 3px;
+	left: 4px;
+}
+
+#bottom-5{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 6px;
+	left: 1px;
+}
+
+#pixel-5{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 5px;
+}
+
+
+
+
+
+
+
+#wii-two-on{
+	position: absolute;
+	top: 26px;
+	left: 819px;
+	z-index: 3;
+}
+
+#wii-two-off{
+	position: absolute;
+	top: 26px;
+	left: 819px;
+	z-index: 2;
+}
+
+#wii-two-on:active{
+	opacity: 0;
+}
+
+
+#wii-two-on:active ~ div:nth-child(129){
+	transform: translateY(-5px);
+}
+
+
+#six{ 
+	position: absolute;
+	left: 821px;
+	top: 15px;
+}
+
+#top-6 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;
+}
+
+#left-6 {
+	position: absolute;
+	background: black;
+	height: 5px;
+	width: 1px;
+	top: 1px;
+}
+
+#crossbar-6{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 2px;
+	left: 1px;
+}
+
+#right-6{
+	position: absolute;
+	background: black;
+	height: 3px;
+	width: 1px;
+	top: 3px;
+	left: 4px;
+}
+
+#bottom-6{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 6px;
+	left: 1px;
+}
+
+
+
+
+
+
+
+
+#wii-u-a-on{
+	position: absolute;
+	top: 26px;
+	left: 845px;
+	z-index: 4;
+}
+
+#wii-u-a-off{
+	position: absolute;
+	top: 26px;
+	left: 845px;
+	z-index: 2;
+}
+
+#wii-u-a-on:active{
+	opacity: 0;
+}
+
+
+#wii-u-a-on:active ~ div:nth-child(130){
+	transform: translateY(-5px);
+}
+
+
+#seven{ 
+	position: absolute;
+	left: 847px;
+	top: 15px;
+}
+
+#top-7 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 5px;
+}
+
+#top-top-pix-7 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 4px;
+	top: 1px;
+}
+
+#top-pix-7 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 2px;
+	left: 3px;
+}
+
+#center-pix-7{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 3px;
+	left: 2px;
+}
+
+#bottom-pix-7{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 4px;
+	left: 1px;
+}
+
+#left-7{
+	position: absolute;
+	background: black;
+	height: 2px;
+	width: 1px;
+	top: 5px;
+}
+
+
+
+
+
+#wii-u-b-on{
+	position: absolute;
+	top: 26px;
+	left: 871px;
+	z-index: 3;
+}
+
+#wii-u-b-off{
+	position: absolute;
+	top: 26px;
+	left: 871px;
+	z-index: 2;
+}
+
+#wii-u-b-on:active{
+	opacity: 0;
+}
+
+
+#wii-u-b-on:active ~ div:nth-child(131){
+	transform: translateY(-5px);
+}
+
+#eight{ 
+	position: absolute;
+	left: 873px;
+	top: 15px;
+}
+
+#top-8 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;
+}
+
+#left-pix-8 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 1px;
+}
+
+#right-pix-8 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 1px;
+	left: 4px;
+}
+
+#crossbar-8 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 2px;
+	left: 1px;
+}
+
+#left-8{
+	position: absolute;
+	background: black;
+	height: 3px;
+	width: 1px;
+	top: 3px;
+}
+
+#right-8{
+	position: absolute;
+	background: black;
+	height: 3px;
+	width: 1px;
+	top: 3px;
+	left: 4px;
+}
+
+#bottom-8{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 6px;
+	left: 1px;
+}
+
+
+
+
+
+#wii-u-x-on{
+	position: absolute;
+	top: 26px;
+	left: 897px;
+	z-index: 3;
+}
+
+#wii-u-x-off{
+	position: absolute;
+	top: 26px;
+	left: 897px;
+	z-index: 2;
+}
+
+#wii-u-x-on:active{
+	opacity: 0;
+}
+
+#wii-u-x-on:active ~ div:nth-child(132){
+	transform: translateY(-5px);
+}
+
+#nine{ 
+	position: absolute;
+	left: 899px;
+	top: 15px;
+}
+
+#top-9 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;
+}
+
+
+#left-9{
+	position: absolute;
+	background: black;
+	height: 3px;
+	width: 1px;
+	top: 1px;
+}
+
+#right-9{
+	position: absolute;
+	background: black;
+	height: 5px;
+	width: 1px;
+	top: 1px;
+	left: 4px;
+}
+
+
+#crossbar-9 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 4px;
+	left: 1px;
+}
+
+#bottom-9{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 6px;
+	left: 1px;
+}
+
+
+
+
+#wii-u-y-on{
+	position: absolute;
+	top: 26px;
+	left: 923px;
+	z-index: 3;
+}
+
+#wii-u-y-off{
+	position: absolute;
+	top: 26px;
+	left: 923px;
+	z-index: 2;
+}
+
+#wii-u-y-on:active{
+	opacity: 0;
+}
+
+#wii-u-y-on:active ~ div:nth-child(133){
+	transform: translateY(-5px);
+}
+
+#zero{ 
+	position: absolute;
+	left: 925px;
+	top: 15px;
+}
+
+#top-0 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;
+}
+
+
+#left-0{
+	position: absolute;
+	background: black;
+	height: 5px;
+	width: 1px;
+	top: 1px;
+}
+
+#right-0{
+	position: absolute;
+	background: black;
+	height: 5px;
+	width: 1px;
+	top: 1px;
+	left: 4px;
+}
+
+
+#top-pix-0 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 2px;
+	left: 3px;
+}
+
+#center-pix-0 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 3px;
+	left: 2px;
+}
+
+#bottom-pix-0 {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 4px;
+	left: 1px;
+}
+
+#bottom-0{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 6px;
+	left: 1px;
+}
+
+
+
+
+#wii-u-plus-on{
+	position: absolute;
+	top: 26px;
+	left: 949px;
+	z-index: 4;
+}
+
+#wii-u-plus-off{
+	position: absolute;
+	top: 26px;
+	left: 949px;
+	z-index: 2;
+}
+
+#wii-u-plus-on:active{
+	opacity: 0;
+}
+
+#wii-u-plus-on:active ~ div:nth-child(134){
+	transform: translateY(-5px);
+}
+
+#question{ 
+	position: absolute;
+	left: 950px;
+	top: 15px;
+}
+
+#top-pix-quest {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 1px;
+}
+
+
+#top-quest{
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;
+}
+
+#right-quest{
+	position: absolute;
+	background: black;
+	height: 2px;
+	width: 1px;
+	top: 1px;
+	left: 4px;
+}
+
+
+#crossbar-quest {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 2px;
+	top: 3px;
+	left: 2px;
+}
+
+#bottom-pix-quest {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 4px;
+	left: 2px;
+}
+
+#punct-quest {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 6px;
+	left: 2px;
+}
+
+
+
+#wii-u-minus-on{
+	position: absolute;
+	top: 26px;
+	left: 975px;
+	z-index: 3;
+}
+
+#wii-u-minus-off{
+	position: absolute;
+	top: 26px;
+	left: 975px;
+	z-index: 2;
+}
+
+#wii-u-minus-on:active{
+	opacity: 0;
+}
+
+
+#wii-u-minus-on:active ~ div:nth-child(135){
+	transform: translateY(-5px);
+}
+
+#exclaimation{ 
+	position: absolute;
+	left: 976px;
+	top: 15px;
+}
+
+#center-exclaim {
+	position: absolute;
+	background: black;
+	height: 5px;
+	width: 1px;
+	left: 2px;
+}
+
+#punct-exclaim {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 6px;
+	left: 2px;
+}
+
+
+
+
+
+
+
+
+#switch-a-right-on{
+	position: absolute;
+	top: 27px;
+	left: 1001px;
+	z-index: 4;
+}
+
+#switch-a-right-off{
+	position: absolute;
+	top: 27px;
+	left: 1001px;
+	z-index: 2;
+}
+
+#switch-a-right-on:active{
+	opacity: 0;
+}
+
+#switch-a-right-on:active ~ div:nth-child(136){
+	transform: translateY(-5px);
+}
+
+#atsign{ 
+	position: absolute;
+	left: 1003px;
+	top: 15px;
+}
+
+#top-pix-at {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 1px;
+}
+
+#top-at {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;
+}
+
+#right-at {
+	position: absolute;
+	background: black;
+	height: 5px;
+	width: 1px;
+	left: 4px;
+	top: 1px;
+}
+
+
+#bottom-at {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	left: 1px;
+	top: 6px;
+}
+
+#left-at {
+	position: absolute;
+	background: black;
+	height: 2px;
+	width: 1px;
+	top: 4px;
+}
+
+#inner-top-at {
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 2px;
+	top: 3px;
+	left: 1px;
+}
+
+#inner-right-at {
+	position: absolute;
+	background: black;
+	height: 3px;
+	width: 1px;
+	top: 3px;
+	left: 2px;
+}
+
+
+
+
+
+
+#switch-b-right-on{
+	position: absolute;
+	top: 27px;
+	left: 1027px;
+	z-index: 3;
+}
+
+#switch-b-right-off{
+	position: absolute;
+	top: 27px;
+	left: 1027px;
+	z-index: 2;
+}
+
+#switch-b-right-on:active{
+	opacity: 0;
+}
+
+#switch-b-right-on:active ~ div:nth-child(137){
+	transform: translateY(-5px);
+}
+
+#period{
+	position: absolute;
+	left: 1031px;
+	top: 15px;
+}
+
+#period-dot{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 6px;
+}
+
+
+
+#switch-y-right-on{
+	position: absolute;
+	top: 27px;
+	left: 1055px;
+	z-index: 3;
+}
+
+#switch-y-right-off{
+	position: absolute;
+	top: 27px;
+	left: 1055px;
+	z-index: 2;
+}
+
+#switch-y-right-on:active{
+	opacity: 0;
+}
+
+#switch-y-right-on:active ~ div:nth-child(138){
+	transform: translateY(-5px);
+}
+
+#comma{
+	position: absolute;
+	left: 1059px;
+	top: 15px;
+}
+
+#comma-dot{	
+	position: absolute;
+	background: black;
+	height: 2px;
+	width: 1px;
+	top: 6px;
+}
+
+
+
+#switch-x-right-on{
+	position: absolute;
+	top: 27px;
+	left: 1083px;
+	z-index: 3;
+}
+
+#switch-x-right-off{
+	position: absolute;
+	top: 27px;
+	left: 1083px;
+	z-index: 2;
+}
+
+#switch-x-right-on:active{
+	opacity: 0;
+}
+
+#switch-x-right-on:active ~ div:nth-child(139){
+	transform: translateY(-5px);
+}
+
+#apostrophe{
+	position: absolute;
+	left: 1087px;
+	top: 15px;
+}
+
+#apost-dot{	
+	position: absolute;
+	background: black;
+	height: 2px;
+	width: 1px;
+}
+
+
+
+
+#switch-a-left-on{
+	position: absolute;
+	top: 27px;
+	left: 1111px;
+	z-index: 4;
+}
+
+#switch-a-left-off{
+	position: absolute;
+	top: 27px;
+	left: 1111px;
+	z-index: 2;
+}
+
+#switch-a-left-on:active{
+	opacity: 0;
+}
+
+#switch-a-left-on:active ~ div:nth-child(140){
+	transform: translateY(-5px);
+}
+
+#leftquote{
+	position: absolute;
+	left: 1113px;
+	top: 15px;
+}
+
+#leftquote-left{	
+	position: absolute;
+	background: black;
+	height: 3px;
+	width: 1px;
+}
+
+#leftquote-pix{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 1px;
+}
+
+#small-leftquote-left{	
+	position: absolute;
+	background: black;
+	height: 2px;
+	width: 1px;
+	left: 2px;
+	top: 1px;
+}
+
+#small-leftquote-pix{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 3px;
+	top: 1px;
+}
+
+
+
+
+#switch-b-left-on{
+	position: absolute;
+	top: 27px;
+	left: 1137px;
+	z-index: 3;
+}
+
+#switch-b-left-off{
+	position: absolute;
+	top: 27px;
+	left: 1137px;
+	z-index: 2;
+}
+
+#switch-b-left-on:active{
+	opacity: 0;
+}
+
+#switch-b-left-on:active ~ div:nth-child(141){
+	transform: translateY(-5px);
+}
+
+#rightquote{
+	position: absolute;
+	left: 1139px;
+	top: 15px;
+}
+
+#small-rightquote-right{	
+	position: absolute;
+	background: black;
+	height: 2px;
+	width: 1px;
+	left: 1px;
+	top: 4px;
+}
+
+#small-rightquote-pix{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 5px;
+}
+
+#rightquote-right{	
+	position: absolute;
+	background: black;
+	height: 3px;
+	width: 1px;
+	left: 3px;
+	top: 4px;
+}
+
+#rightquote-pix{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 2px;
+	top: 6px;
+}
+
+
+
+#switch-y-left-on{
+	position: absolute;
+	top: 27px;
+	left: 1163px;
+	z-index: 3;
+}
+
+#switch-y-left-off{
+	position: absolute;
+	top: 27px;
+	left: 1163px;
+	z-index: 2;
+}
+
+#switch-y-left-on:active{
+	opacity: 0;
+}
+
+#switch-y-left-on:active ~ div:nth-child(144){
+	transform: translateY(-5px);
+}
+
+#leftparenth{
+	position: absolute;
+	left: 1165px;
+	top: 15px;
+}
+
+#top-top-pix-leftparenth{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 2px;
+}
+
+#top-pix-leftparenth{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 1px;
+	top: 1px;
+}
+
+#left-leftparenth{	
+	position: absolute;
+	background: black;
+	height: 3px;
+	width: 1px;
+	top: 2px;
+}
+
+#bottom-pix-leftparenth{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 1px;
+	top: 5px;
+}
+
+#bottom-bottom-pix-leftparenth{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 2px;
+	top: 6px;
+}
+
+
+
+#switch-x-left-on{
+	position: absolute;
+	top: 27px;
+	left: 1189px;
+	z-index: 3;
+}
+
+#switch-x-left-off{
+	position: absolute;
+	top: 27px;
+	left: 1189px;
+	z-index: 2;
+}
+
+#switch-x-left-on:active{
+	opacity: 0;
+}
+
+#switch-x-left-on:active ~ div:nth-child(145){
+	transform: translateY(-5px);
+}
+
+
+#rightparenth{
+	position: absolute;
+	left: 1191px;
+	top: 15px;
+}
+
+#top-top-pix-rightparenth{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+}
+
+#top-pix-rightparenth{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 1px;
+	top: 1px;
+}
+
+#right-rightparenth{	
+	position: absolute;
+	background: black;
+	height: 3px;
+	width: 1px;
+	top: 2px;
+	left: 2px;
+}
+
+#bottom-pix-rightparenth{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	left: 1px;
+	top: 5px;
+}
+
+#bottom-bottom-pix-rightparenth{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 1px;
+	top: 6px;
+}
+
+
+/*#leftbracket{
+	position: absolute;
+	left: 70px;
+	top: 70px;
+}
+
+#top-leftbracket{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+}
+
+#left-leftbracket{	
+	position: absolute;
+	background: black;
+	height: 5px;
+	width: 1px;
+	top: 1px;
+}
+
+#bottom-leftbracket{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 6px;
+}
+
+
+
+
+#rightbracket{
+	position: absolute;
+	left: 80px;
+	top: 70px;
+}
+
+#top-rightbracket{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+}
+
+#right-rightbracket{	
+	position: absolute;
+	background: black;
+	height: 5px;
+	width: 1px;
+	top: 1px;
+	left: 2px;
+}
+
+#bottom-rightbracket{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#dash{
+	position: absolute;
+	left: 110px;
+	top: 70px;
+}
+
+#dash-dot{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 2px;
+	top: 6px;
+}
+
+
+
+#en-dash{
+	position: absolute;
+	left: 115px;
+	top: 70px;
+}
+
+#en-dash-dot{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 3px;
+	top: 6px;
+}
+
+
+
+#em-dash{
+	position: absolute;
+	left: 120px;
+	top: 70px;
+}
+
+#em-dash-dot{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 5px;
+	top: 6px;
+}
+
+
+
+
+#equal{
+	position: absolute;
+	left: 130px;
+	top: 70px;
+}
+
+#equal-top{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 5px;
+	top: 4px;
+}
+
+#equal-bottom{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 5px;
+	top: 6px;
+}
+
+
+
+
+#plus{
+	position: absolute;
+	left: 140px;
+	top: 70px;
+}
+
+#plus-center{	
+	position: absolute;
+	background: black;
+	height: 5px;
+	width: 1px;
+	top: 2px;
+	left: 2px;
+}
+
+#plus-cross{	
+	position: absolute;
+	background: black;
+	height: 1px;
+	width: 5px;
+	top: 4px;
+}
+*/

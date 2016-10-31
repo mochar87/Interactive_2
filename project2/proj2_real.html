@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Mono-Bit</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="stylesheet_real.css" type="text/css">
+</head>
+
+
+<body>
+	<div id="background">
+
+			<div id="arcade-b-on"><img src="images/arcade-black-on.png" style="width: 12.5px; height: 7.5px"></div>
+			<div id="arcade-b-off"><img src="images/arcade-black-off.png" style="width:12.5px; height: 7.5px"></div>
+			
+			<div id="arcade-w-on"><img src="images/arcade-white-on.png" style="width: 12.5px; height: 7.5px"></div>
+			<div id="arcade-w-off"><img src="images/arcade-white-off.png" style="width:12.5px; height: 7.5px"></div>
+			
+			<div id="arcade-bl-on"><img src="images/arcade-blue-on.png" style="width: 12.5px; height: 7.5px"></div>
+			<div id="arcade-bl-off"><img src="images/arcade-blue-off.png" style="width:12.5px; height: 7.5px"></div>
+
+			<div id="arcade-y-on"><img src="images/arcade-yellow-on.png" style="width: 12.5px; height: 7.5px"></div>
+			<div id="arcade-y-off"><img src="images/arcade-yellow-off.png" style="width:12.5px; height: 7.5px"></div>
+
+			<div id="arcade-p-on"><img src="images/arcade-pink-on.png" style="width: 12.5px; height: 7.5px"></div>
+			<div id="arcade-p-off"><img src="images/arcade-pink-off.png" style="width:12.5px; height: 7.5px"></div>
+
+
+
+			<div id="nes-b-button-on"><img src="images/button-on-red.png" style= "width: 10px; height: 5px"></div>
+			<div id="nes-b-button-off"><img src="images/button-off-red.png" style= "width: 10px; height: 5px"></div>
+			
+			<div id="nes-a-button-on"><img src="images/button-on-red.png" style= "width: 10px; height: 5px"></div>
+			<div id="nes-a-button-off"><img src="images/button-off-red.png" style= "width: 10px; height: 5px"></div>
+
+			<div id="nes-start-button-on"><img src="images/oval-button-off.png" style= "width: 12px; height: 6.25px"></div>
+			<div id="nes-start-button-off"><img src="images/oval-button-on.png" style= "width: 12px; height: 6.25px"></div>
+
+			<div id="nes-select-button-on"><img src="images/oval-button-off.png" style= "width: 12px; height: 6.25px"></div>
+			<div id="nes-select-button-off"><img src="images/oval-button-on.png" style= "width: 12px; height: 6.25px"></div>
+
+
+
+			<div id="snes-b-button-on"><img src="images/snes-b-button-on.png" style= "width: 10px; height: 5px"></div>
+			<div id="snes-b-button-off"><img src="images/snes-b-button-off.png" style= "width: 10px; height: 5px"></div>
+
+			<div id="snes-a-button-on"><img src="images/snes-a-button-on.png" style= "width: 10px; height: 5px"></div>
+			<div id="snes-a-button-off"><img src="images/snes-a-button-off.png" style= "width: 10px; height: 5px"></div>
+
+			<div id="snes-y-button-on"><img src="images/snes-y-button-on.png" style= "width: 10px; height: 5px"></div>
+			<div id="snes-y-button-off"><img src="images/snes-y-button-off.png" style= "width: 10px; height: 5px"></div>
+
+			<div id="snes-x-button-on"><img src="images/snes-x-button-on.png" style= "width: 10px; height: 5px"></div>
+			<div id="snes-x-button-off"><img src="images/snes-x-button-off.png" style= "width: 10px; height: 5px"></div>			
+
+			<div id="snes-start-button-on"><img src="images/oval-button-off.png" style= "width: 12px; height: 6px"></div>
+			<div id="snes-start-button-off"><img src="images/oval-button-on.png" style= "width: 12px; height: 6px"></div>
+			
+			<div id="snes-select-button-on"><img src="images/oval-button-off.png" style= "width: 12px; height: 6px"></div>
+			<div id="snes-select-button-off"><img src="images/oval-button-on.png" style= "width: 12px; height: 6px"></div>
+
+
+
+			<div id="n64-b-button-on"><img src="images/button-on.png" style= "width: 10px; height: 5px"></div>
+			<div id="n64-b-button-off"><img src="images/button-off.png" style= "width: 10px; height: 5px"></div>
+			
+			<div id="n64-a-button-on"><img src="images/button-on-blue.png" style= "width: 10px; height: 5px"></div>
+			<div id="n64-a-button-off"><img src="images/button-off-blue.png" style= "width: 10px; height: 5px"></div>
+
+			<div id="n64-c-top-on"><img src="images/n64_c-top-on.png" style= "width: 8px; height: 4px"></div>
+			<div id="n64-c-top-off"><img src="images/n64_c-top-off.png" style= "width: 8px; height: 4px"></div>
+
+			<div id="n64-c-bottom-on"><img src="images/n64_c-top-on.png" style= "width: 8px; height: 4px"></div>
+			<div id="n64-c-bottom-off"><img src="images/n64_c-top-off.png" style= "width: 8px; height: 4px"></div>
+
+			<div id="n64-c-left-on"><img src="images/n64_c-top-on.png" style= "width: 8px; height: 4px"></div>
+			<div id="n64-c-left-off"><img src="images/n64_c-top-off.png" style= "width: 8px; height: 4px"></div>
+
+			<div id="n64-c-right-on"><img src="images/n64_c-top-on.png" style= "width: 8px; height: 4px"></div>
+			<div id="n64-c-right-off"><img src="images/n64_c-top-off.png" style= "width: 8px; height: 4px"></div>
+
+			<div id="n64-start-on"><img src="images/button-on-red.png" style= "width: 10px; height: 5px"></div>
+			<div id="n64-start-off"><img src="images/button-off-red.png" style= "width: 10px; height: 5px"></div>
+
+			<div id=""></div>
+			<div id=""></div>
+
+
+
+			<div id="gcn-b-on"><img src="images/gcn_b-on.png" style= "width: 12px; height: 6px"></div>
+			<div id="gcn-b-off"><img src="images/gcn_b-off.png" style= "width: 12px; height: 6px"></div>
+
+			<div id="gcn-a-on"><img src="images/button-on.png" style= "width: 10px; height: 5px"></div>
+			<div id="gcn-a-off"><img src="images/button-off.png" style= "width: 10px; height: 5px"></div>
+
+			<div id="gcn-y-on"><img src="images/gcn_yx-on.png" style= "width: 10px; height: 5px"></div>
+			<div id="gcn-y-off"><img src="images/gcn_yx-off.png" style= "width: 10px; height: 5px"></div>			
+
+			<div id="gcn-x-on"><img src="images/gcn_yx-on.png" style= "width: 10px; height: 5px"></div>
+			<div id="gcn-x-off"><img src="images/gcn_yx-off.png" style= "width: 10px; height: 5px"></div>
+
+			<div id="gcn-start-on"><img src="images/gcn_start-on.png" style= "width: 12px; height: 6px"></div>
+			<div id="gcn-start-off"><img src="images/gcn_start-off.png" style= "width: 12px; height: 6px"></div>
+
+			<div id=""></div>
+			<div id=""></div>
+			<div id=""></div>
+
+
+
+			<div id="wii-a-on"><img src="images/wii-a-button-on.png" style= "width: 9px; height: 4.5px"></div>		
+			<div id="wii-a-off"><img src="images/wii-a-button-off.png" style= "width: 9px; height: 4.5px"></div>
+
+			<div id="wii-minus-on"><img src="images/wii-minus-button-on.png" style= "width: 7px; height: 3.5px"></div>	
+			<div id="wii-minus-off"><img src="images/wii-minus-button-off.png" style= "width: 7px; height: 3.5px"></div>
+
+			<div id="wii-plus-on"><img src="images/wii-plus-button-on.png" style= "width: 7px; height: 3.5px"></div>	
+			<div id="wii-plus-off"><img src="images/wii-plus-button-off.png" style= "width: 7px; height: 3.5px"></div>
+
+			<div id="wii-one-on"><img src="images/wii-one-button-on.png" style= "width: 10px; height: 5px"></div>	
+			<div id="wii-one-off"><img src="images/wii-one-button-off.png" style= "width: 10px; height: 5px"></div>
+
+			<div id="wii-two-on"><img src="images/wii-two-button-on.png" style= "width: 10px; height: 5px"></div>	
+			<div id="wii-two-off"><img src="images/wii-two-button-off.png" style= "width: 10px; height: 5px"></div>
+
+
+
+			<div id="wii-u-a-on"><img src="images/wii-one-button-on.png" style= "width: 8px; height: 4px"></div>
+			<div id="wii-u-a-off"><img src="images/wii-one-button-off.png" style= "width: 8px; height: 4px"></div>
+
+			<div id="wii-u-b-on"><img src="images/wii-one-button-on.png" style= "width: 8px; height: 4px"></div>
+			<div id="wii-u-b-off"><img src="images/wii-one-button-off.png" style= "width: 8px; height: 4px"></div>
+
+			<div id="wii-u-x-on"><img src="images/wii-one-button-on.png" style= "width: 8px; height: 4px"></div>
+			<div id="wii-u-x-off"><img src="images/wii-one-button-off.png" style= "width: 8px; height: 4px"></div>
+
+			<div id="wii-u-y-on"><img src="images/wii-one-button-on.png" style= "width: 8px; height: 4px"></div>
+			<div id="wii-u-y-off"><img src="images/wii-one-button-off.png" style= "width: 8px; height: 4px"></div>
+
+			<div id="wii-u-plus-on"><img src="images/wii-plus-button-on.png" style= "width: 7px; height: 3.5px"></div>
+			<div id="wii-u-plus-off"><img src="images/wii-plus-button-off.png" style= "width: 7px; height: 3.5px"></div>
+
+			<div id="wii-u-minus-on"><img src="images/wii-plus-button-on.png" style= "width: 7px; height: 3.5px"></div>
+			<div id="wii-u-minus-off"><img src="images/wii-plus-button-off.png" style= "width: 7px; height: 3.5px"></div>
+
+
+
+			<div id="switch-a-right-on"><img src="images/switch_on.png" style= "width: 10px; height: 5px"></div>
+			<div id="switch-a-right-off"><img src="images/switch_off.png" style= "width: 10px; height: 5px"></div>
+
+			<div id="switch-b-right-on"><img src="images/switch_on.png" style= "width: 10px; height: 5px"></div>
+			<div id="switch-b-right-off"><img src="images/switch_off.png" style= "width: 10px; height: 5px"></div>
+
+			<div id="switch-y-right-on"><img src="images/switch_on.png" style= "width: 10px; height: 5px"></div>
+			<div id="switch-y-right-off"><img src="images/switch_off.png" style= "width: 10px; height: 5px"></div>
+
+			<div id="switch-x-right-on"><img src="images/switch_on.png" style= "width: 10px; height: 5px"></div>
+			<div id="switch-x-right-off"><img src="images/switch_off.png" style= "width: 10px; height: 5px"></div>
+
+			<div id="switch-a-left-on"><img src="images/switch_on.png" style= "width: 10px; height: 5px"></div>
+			<div id="switch-a-left-off"><img src="images/switch_off.png" style= "width: 10px; height: 5px"></div>
+
+			<div id="switch-b-left-on"><img src="images/switch_on.png" style= "width: 10px; height: 5px"></div>
+			<div id="switch-b-left-off"><img src="images/switch_off.png" style= "width: 10px; height: 5px"></div>
+
+			<div id="switch-y-left-on"><img src="images/switch_on.png" style= "width: 10px; height: 5px"></div>
+			<div id="switch-y-left-off"><img src="images/switch_off.png" style= "width: 10px; height: 5px"></div>
+
+			<div id="switch-x-left-on"><img src="images/switch_on.png" style= "width: 10px; height: 5px"></div>
+			<div id="switch-x-left-off"><img src="images/switch_off.png" style= "width: 10px; height: 5px"></div>
+
+
+
+
+	   <div id="a">
+ 	   		<div id="left-a"></div>
+ 	   		<div id="right-a"></div>
+ 	   		<div id="crossbar-a"></div>
+ 	   		<div id="top-a"></div>
+ 	   </div>
+
+ 	   <div id="b">
+ 	   		<div id="left-b"></div>
+ 	   		<div id="top-b"></div>
+ 	   		<div id="crossbar-b"></div>
+ 	   		<div id="bottom-b"></div>
+ 	   		<div id="top-pix-b"></div>
+ 	   		<div id="bottom-pix-b"></div>
+ 	   		<div id="right-b"></div>
+ 	   </div>
+
+ 	   <div id="c">
+ 	   		<div id="left-c"></div>
+ 	   		<div id="top-c"></div>
+ 	   		<div id="top-pix-c"></div>
+ 	   		<div id="bottom-pix-c"></div>
+ 	   		<div id="bottom-c"></div>
+ 	   </div>
+
+ 	   <div id="d">
+ 	   		<div id="left-d"></div>
+ 	   		<div id="top-d"></div>
+ 	   		<div id="bottom-d"></div>
+ 	   		<div id="top-pix-d"></div>
+ 	   		<div id="bottom-pix-d"></div>
+ 	   		<div id="right-d"></div>
+ 	   </div>
+
+
+ 	   <div id="e">
+ 	   		<div id="left-e"></div>
+ 	   		<div id="top-e"></div>
+ 	   		<div id="crossbar-e"></div>
+ 	   		<div id="bottom-e"></div>
+ 	   </div>
+ 	   
+
+
+ 	   <!-- NES Letters-->
+
+ 	    <div id="f">
+ 	   		<div id="left-f"></div>
+ 	   		<div id="top-f"></div>
+ 	   		<div id="crossbar-f"></div>
+ 	   </div>
+
+
+ 	   <div id="g">
+ 	   		<div id="left-g"></div>
+ 	   		<div id="top-g"></div>
+ 	   		<div id="top-pix-g"></div>
+ 	   		<div id="crossbar-g"></div>
+ 	   		<div id="bottom-g"></div>
+ 	   		<div id="right-g"></div>
+ 	   </div>
+
+ 	   <div id="h">
+ 	   		<div id="left-h"></div>
+ 	   		<div id="right-h"></div>
+ 	   		<div id="crossbar-h"></div>
+ 	   </div>
+
+
+ 	    <div id="i">
+ 	   		<div id="center-i"></div>
+ 	   		<div id="top-i"></div>
+ 	   		<div id="bottom-i"></div>
+ 	   </div>
+
+
+
+ 	   <!-- SNES Letters-->
+
+
+ 	   <div id="j">
+ 	   		<div id="right-j"></div>
+ 	   		<div id="top-j"></div>
+ 	   		<div id="bottom-j"></div>
+ 	   		<div id="left-j"></div>
+ 	   </div>
+
+
+ 	    <div id="k">
+ 	   		<div id="left-k"></div>
+ 	   		<div id="crossbar-k"></div>
+ 	   		<div id="top-top-pix-k"></div>
+ 	   		<div id="top-pix-k"></div>
+ 	   		<div id="bottom-pix-k"></div>
+ 	   		<div id="right-k"></div>
+ 	   </div>
+    
+	   
+	   <div id="l">
+ 	   		<div id="left-l"></div>
+ 	   		<div id="bottom-l"></div>
+ 	   </div>
+
+
+ 	   <div id="m">
+ 	   		<div id="left-m"></div>
+ 	   		<div id="left-top-m"></div>
+ 	   		<div id="center-m"></div>
+ 	   		<div id="right-top-m"></div>
+ 	    	<div id="right-m"></div>
+ 	   </div>
+
+
+ 	   <div id="n">
+ 	   		<div id="left-n"></div>
+ 	   		<div id="top-pixel-n"></div>
+ 	   		<div id="center-pixel-n"></div>
+ 	   		<div id="bottom-pixel-n"></div>
+ 	    	<div id="right-n"></div>
+ 	   </div>
+
+
+ 	   <div id="o">
+ 	   		<div id="left-o"></div>
+ 	   		<div id="top-o"></div>
+ 	   		<div id="bottom-o"></div>
+ 	    	<div id="right-o"></div>
+ 	   </div>
+
+
+ 	   <!-- N64 Letters-->
+
+
+ 	   <div id="p">
+ 	   		<div id="left-p"></div>
+ 	   		<div id="top-p"></div>
+ 	   		<div id="bottom-p"></div>
+ 	    	<div id="right-p"></div>
+ 	    	<div id="pixel-p"></div>
+ 	   </div>
+
+
+ 	   <div id="q">
+ 	   		<div id="left-q"></div>
+ 	   		<div id="top-q"></div>
+ 	   		<div id="bottom-q"></div>
+ 	    	<div id="right-q"></div>
+ 	    	<div id="top-pixel-q"></div>
+ 	    	<div id="center-pixel-q"></div>
+ 	    	<div id="bottom-pixel-q"></div>
+ 	   </div>
+
+
+ 	   <div id="r">
+ 	   		<div id="left-r"></div>
+ 	   		<div id="top-r"></div>
+ 	   		<div id="bottom-r"></div>
+ 	    	<div id="right-r"></div>
+ 	    	<div id="middle-pixel-r"></div>
+ 	    	<div id="top-pixel-r"></div>
+ 	    	<div id="bottom-pixel-r"></div>
+ 	   </div>
+
+
+ 	   <div id="s">
+ 	   		<div id="left-s"></div>
+ 	   		<div id="top-s"></div>
+ 	   		<div id="crossbar-s"></div>
+ 	    	<div id="right-s"></div>
+ 	    	<div id="bottom-s"></div>
+ 	    	<div id="top-pixel-s"></div>
+ 	    	<div id="bottom-pixel-s"></div>
+ 	   </div>
+
+
+ 	    <div id="t">
+ 	   		<div id="top-t"></div>
+ 	   		<div id="center-t"></div>
+ 	   </div>
+
+
+ 	   	<div id="u">
+ 	   		<div id="left-u"></div>
+ 	   		<div id="bottom-u"></div>
+ 	   		<div id="right-u"></div>
+ 	   </div>
+
+
+ 	   <div id="v">
+ 	   		<div id="left-v"></div>
+ 	   		<div id="bottom-v"></div>
+ 	   		<div id="right-v"></div>
+ 	   		<div id="bottom-pixel-v"></div>
+ 	   		<div id="top-pixel-v"></div>
+ 	   </div>
+
+
+
+
+		<div id="w">
+ 	   		<div id="left-w"></div>
+ 	   		<div id="left-bottom-w"></div>
+ 	   		<div id="center-w"></div>
+ 	   		<div id="right-bottom-w"></div>
+ 	    	<div id="right-w"></div>
+ 	   </div>
+
+
+ 	   <div id="x">
+ 	   		<div id="left-x"></div>
+ 	   		<div id="right-x"></div>
+ 	   		<div id="top-left-pix-x"></div>
+ 	   		<div id="center-left-pix-x"></div>
+ 	   		<div id="bottom-left-pix-x"></div>
+ 	   		<div id="top-right-pix-x"></div>
+ 	   		<div id="center-right-pix-x"></div>
+ 	   		<div id="bottom-right-pix-x"></div>
+ 	   		<div id="center-pixel-x"></div>	
+ 	   </div>
+
+
+ 	 <!-- GCN Letters-->
+
+
+ 	   <div id="y">
+ 	   		<div id="left-y"></div>
+ 	   		<div id="right-y"></div>
+ 	   		<div id="center-y"></div>
+ 	   		<div id="left-pixel-y"></div>
+ 	   		<div id="right-pixel-y"></div>
+ 	   </div>
+
+
+ 	   <div id="z">
+ 	   		<div id="top-z"></div>
+ 	   		<div id="bottom-z"></div>
+ 	   		<div id="top-top-pixel-z"></div>
+ 	   		<div id="top-pixel-z"></div>
+ 	   		<div id="center-pixel-z"></div>
+ 	   		<div id="bottom-pixel-z"></div>
+ 	   		<div id="bottom-bottom-pixel-z"></div>
+ 	   </div>
+
+
+ 	    <div id="one">
+ 	   		<div id="top-1"></div>
+ 	   		<div id="center-1"></div>
+ 	   		<div id="bottom-1"></div>
+ 	   </div>
+
+
+ 	   <div id="two">
+ 	   		<div id="top-2"></div>
+ 	   		<div id="right-2"></div>
+ 	   		<div id="bottom-2"></div>
+ 	   		<div id="left-pixel-2"></div>
+ 	   		<div id="top-pixel-2"></div>
+ 	   		<div id="center-pixel-2"></div>
+ 	   		<div id="bottom-pixel-2"></div>
+ 	   </div>
+
+
+ 	   <div id="three">
+ 	   		<div id="top-3"></div>
+ 	   		<div id="top-right-3"></div>
+ 	   		<div id="bottom-3"></div>
+ 	   		<div id="bottom-right-3"></div>
+ 	   		<div id="top-pixel-3"></div>
+ 	   		<div id="crossbar-3"></div>
+ 	   		<div id="bottom-pixel-3"></div>
+ 	   </div>
+
+
+
+ 	   <div id="four">
+ 	   		<div id="left-4"></div>
+ 	   		<div id="right-4"></div>
+ 	   		<div id="crossbar-4"></div>
+ 	   </div>
+
+
+ 	   <div id="five">
+ 	   		<div id="top-5"></div>
+ 	   		<div id="left-5"></div>
+ 	   		<div id="crossbar-5"></div>
+ 	   		<div id="right-5"></div>
+ 	   		<div id="bottom-5"></div>
+ 	   		<div id="pixel-5"></div>
+ 	   </div>
+
+
+
+ 	   <!-- WII Letters-->
+
+
+ 	   <div id="six">
+ 	   		<div id="top-6"></div>
+ 	   		<div id="left-6"></div>
+ 	   		<div id="crossbar-6"></div>
+ 	   		<div id="right-6"></div>
+ 	   		<div id="bottom-6"></div>
+ 	   </div>	
+
+
+ 	    <div id="seven">
+ 	   		<div id="top-7"></div>
+ 	   		<div id="top-top-pix-7"></div>
+ 	   		<div id="top-pix-7"></div>
+ 	   		<div id="center-pix-7"></div>
+ 	   		<div id="bottom-pix-7"></div>
+ 	   		<div id="left-7"></div>
+ 	   </div>
+
+
+ 	   <div id="eight">
+ 	   		<div id="top-8"></div>
+ 	   		<div id="left-pix-8"></div>
+ 	   		<div id="right-pix-8"></div>
+ 	   		<div id="crossbar-8"></div>
+ 	   		<div id="left-8"></div>
+ 	   		<div id="right-8"></div>
+ 	   		<div id="bottom-8"></div>
+ 	   </div>
+
+
+
+
+	<!-- WII-U Letters-->
+
+
+
+
+ 	   <div id="nine">
+ 	   		<div id="top-9"></div>
+ 	   		<div id="left-9"></div>
+ 	   		<div id="right-9"></div>
+ 	   		<div id="crossbar-9"></div>
+ 	   		<div id="bottom-9"></div>
+ 	   </div>
+
+
+ 	   <div id="zero">
+ 	   		<div id="top-0"></div>
+ 	   		<div id="left-0"></div>
+ 	   		<div id="right-0"></div>
+ 	   		<div id="top-pix-0"></div>
+ 	   		<div id="center-pix-0"></div>
+ 	   		<div id="bottom-pix-0"></div>
+ 	   		<div id="bottom-0"></div>
+ 	   </div>
+
+
+ 	   <div id="question">
+ 	   		<div id="top-pix-quest"></div>
+ 	   		<div id="top-quest"></div>
+ 	   		<div id="right-quest"></div>
+ 	   		<div id="crossbar-quest"></div>
+ 	   		<div id="bottom-pix-quest"></div>
+ 	   		<div id="punct-quest"></div>
+ 	   </div>
+
+
+ 	   <div id="exclaimation">
+ 	   		<div id="center-exclaim"></div>
+ 	   		<div id="punct-exclaim"></div>
+ 	   </div>
+
+
+ 	   <div id="atsign">
+ 	   		<div id="top-pix-at"></div>
+ 	   		<div id="top-at"></div>
+ 	   		<div id="right-at"></div>
+ 	   		<div id="bottom-at"></div>
+ 	   		<div id="left-at"></div>
+ 	   		<div id="inner-top-at"></div>
+ 	   		<div id="inner-right-at"></div>
+ 	   </div>
+
+
+ 	   <div id="period">
+ 	   		<div id="period-dot"></div>
+ 	   </div>
+
+
+ 	   <div id="comma">
+ 	   		<div id="comma-dot"></div>
+ 	   </div>
+
+
+ 	   <div id="apostrophe">
+ 	   		<div id="apost-dot"></div>
+ 	   </div>
+    
+
+    	<div id="leftquote">
+ 	   		<div id="leftquote-left"></div>
+ 	   		<div id="leftquote-pix"></div>
+ 	   		<div id="small-leftquote-left"></div>
+ 	   		<div id="small-leftquote-pix"></div>
+ 	   </div>
+
+
+	   <div id="rightquote">
+ 	   		<div id="small-rightquote-right"></div>
+ 	   		<div id="small-rightquote-pix"></div>
+ 	   		<div id="rightquote-right"></div>
+ 	   		<div id="rightquote-pix"></div>
+ 	   </div> 	   
+
+
+ 	   <div id="leftbracket">
+ 	   		<div id="top-leftbracket"></div>
+ 	   		<div id="left-leftbracket"></div>
+ 	   		<div id="bottom-leftbracket"></div>
+ 	   </div>
+
+
+ 	   <div id="rightbracket">
+ 	   		<div id="top-rightbracket"></div>
+ 	   		<div id="right-rightbracket"></div>
+ 	   		<div id="bottom-rightbracket"></div>
+ 	   </div>
+
+
+ 	   <div id="leftparenth">
+ 	   		<div id="top-top-pix-leftparenth"></div>
+ 	   		<div id="top-pix-leftparenth"></div>
+ 	   		<div id="left-leftparenth"></div>
+ 	   		<div id="bottom-pix-leftparenth"></div>
+ 	   		<div id="bottom-bottom-pix-leftparenth"></div>
+ 	   </div>
+
+
+ 	   <div id="rightparenth">
+ 	   		<div id="top-top-pix-rightparenth"></div>
+ 	   		<div id="top-pix-rightparenth"></div>
+ 	   		<div id="right-rightparenth"></div>
+ 	   		<div id="bottom-pix-rightparenth"></div>
+ 	   		<div id="bottom-bottom-pix-rightparenth"></div>
+ 	   </div>
+
+
+ 	   <div id="dash">
+ 	   		<div id="dash-dot"></div>
+ 	   </div>
+
+
+ 	   <div id="en-dash">
+ 	   		<div id="en-dash-dot"></div>
+ 	   </div>
+
+
+ 	   <div id="em-dash">
+ 	   		<div id="em-dash-dot"></div>
+ 	   </div>
+
+
+ 	   <div id="equal">
+ 	   		<div id="equal-top"></div>
+ 	   		<div id="equal-bottom"></div>
+ 	   </div>
+
+
+ 	   <div id="plus">
+ 	   		<div id="plus-center"></div>
+ 	   		<div id="plus-cross"></div>
+ 	   </div>
+
+
+
+</div>
+
+
+
+
+
+	</body>
+
+</html>
