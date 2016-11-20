@@ -1,0 +1,489 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 1024px;
+	height: 495px;
+	margin: 0px auto;
+	background: #d8e6fd;
+	position: relative;
+}
+
+#lightwitch{
+	position: absolute;
+	height: 60px;
+	width: 40px;
+	z-index: 10;
+}
+
+#plate{
+	position: absolute;
+	background-color: #ffebcc;
+	left: 550px;
+	top: 200px;
+	height: 75px;
+	width: 45px;
+}
+
+#switchon{
+	position: absolute;
+	background-color: #f8db80;
+	top: 220px;
+	left: 565px;
+	height: 30px;
+	width: 15px;
+}
+
+
+#lightswitch:hover ~ div:nth-child(7){
+	background-color: #ffeb85;
+	opacity: 1;
+}
+
+#lightswitch:hover ~ div:nth-child(6){
+	background-color: #ffeb85;
+	opacity: 1;
+}
+
+#lightswitch:hover ~ div:nth-child(5){
+	background-color: #ffeb85;
+	opacity: 1;
+}
+
+#lightswitch:hover ~ div:nth-child(4){
+	background-color: #ffeb85;
+	opacity: 1;
+}
+
+#lightswitch:hover ~ div:nth-child(3){
+	background-color: #ffeb85;
+	opacity: 1;
+}
+
+#lightswitch:hover ~ div:nth-child(8){
+	background-color: #ffeb85;
+	opacity: 1;
+}
+
+#light1{
+	position: absolute;
+	border-radius: 100%;
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	left: 50px;
+	top: 25px;
+	opacity: .5;
+}
+
+
+#light2{
+	position: absolute;
+	border-radius: 100%;
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	left: 120px;
+	top: 170px;
+	opacity: .5;
+}
+
+#light3{
+	position: absolute;
+	border-radius: 100%;
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	left: 320px;
+	top: 200px;
+	opacity: .5;
+}
+
+#light4{
+	position: absolute;
+	border-radius: 100%;
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	left: 420px;
+	top: 130px;
+	opacity: .5;
+}
+
+#light5{
+	position: absolute;
+	border-radius: 100%;
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	left: 580px;
+	top: 50px;
+	opacity: .5;
+}
+
+#light6{
+	position: absolute;
+	border-radius: 100%;
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	left: 720px;
+	top: 80px;
+	opacity: .5;
+}
+
+#funlight{
+	position: absolute;
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+	left: 800px;
+	top: 170px;
+	z-index: 5;
+}
+
+#lightbase{
+	position: absolute;
+	background-color: white;
+	border-radius: 100%;
+	height: 48px;
+	width: 48px;
+	left: 0.75px;
+	top: 0.75px;
+	opacity: 0.5;
+	z-index: 6;
+
+}
+
+#funlight1{
+	position: absolute;
+	background-color: goldenrod;
+	border-radius: 100%;
+	height: 10px;
+	width: 10px;
+	left: -3px;
+	top: 8px;
+}
+
+#funlight2{
+	position: absolute;
+	background-color: magenta;
+	border-radius: 100%;
+	height: 10px;
+	width: 10px;
+	left: 0px;
+	top: 35px;
+}
+
+
+#funlight3{
+	position: absolute;
+	background-color: magenta;
+	border-radius: 100%;
+	height: 10px;
+	width: 10px;
+	left: 40px;
+	top: 35px;
+}
+
+
+#funlight4{
+	position: absolute;
+	background-color: goldenrod;
+	border-radius: 100%;
+	height: 10px;
+	width: 10px;
+	left: 42px;
+	top: 8px;
+}
+
+#funlight5{
+	position: absolute;
+	background-color: magenta;
+	border-radius: 100%;
+	height: 10px;
+	width: 10px;
+	left: 20px;
+	top: -7px;
+}
+
+#funlight6{
+	position: absolute;
+	background-color: goldenrod;
+	border-radius: 100%;
+	height: 10px;
+	width: 10px;
+	left: 20px;
+	top: 45px;
+}
+
+
+#funlight:hover{
+	background-color: cyan;
+	transform: rotate(35deg);
+}
+
+#window{
+	position: absolute;
+	left: 100px;
+	top: -20px;
+}
+
+#windowleft{
+	position: absolute;
+	background: black;
+	height: 150px;
+	width: 7px;
+	left: 30px;
+	top: 30px;
+	z-index: 5;
+
+}
+
+#windowright{
+	position: absolute;
+	background: black;
+	height: 150px;
+	width: 7px;
+	left: 180px;
+	top: 30px;
+	z-index: 5;
+
+}
+
+#windowtop{
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 150px;
+	left: 30px;
+	top: 30px;
+	z-index: 5;
+}
+
+#windowbottom{
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 157px;
+	left: 30px;
+	top: 180px;
+	z-index: 5;
+}
+
+
+#windowhorizontal{
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 157px;
+	left: 30px;
+	top: 105px;
+	z-index: 5;
+}
+
+#windowvertical{
+	position: absolute;
+	background: black;
+	height: 150px;
+	width: 7px;
+	left: 105px;
+	top: 30px;
+	z-index: 5;
+
+}
+
+#day-night{
+	position: absolute;
+	background-color: #ffd633;
+	height: 150px;
+	width: 150px;
+	left: 30px;
+	top: 30px;
+	transition-property: background;
+  	transition-duration: 1s;
+ 	transition-delay: 0s;
+  	transition-timing-function: linear;
+}
+
+#day-night:hover{
+	background-color: #330080;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: all 1s ease-in-out; 
+}
+
+
+
+p{	
+	font-family: 'Gloria Hallelujah', cursive;
+	position: absolute;
+	color: black;
+	height: 25px;
+	width: 200px;
+	left: 350px;
+	top: 50px;
+}
+
+p:hover{
+	text-transform: uppercase;
+}
+
+#night{
+	position: absolute;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: yellow;
+	width: 200px;
+	left: 300px;
+	top: 100px;
+	z-index: 10;
+	opacity: 0;
+}
+
+
+
+#windowbase{
+	position: absolute;
+	left: 0px;
+	top: 220px;
+	z-index: 2;
+}
+
+#windowleftbase{
+	position: absolute;
+	background: black;
+	height: 150px;
+	width: 7px;
+	left: 30px;
+	top: 30px;
+	z-index: 2;
+
+}
+
+#windowrightbase{
+	position: absolute;
+	background: black;
+	height: 150px;
+	width: 7px;
+	left: 180px;
+	top: 30px;
+	z-index: 2;
+
+}
+
+#windowtopbase{
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 150px;
+	left: 30px;
+	top: 30px;
+	z-index: 2;
+}
+
+#windowbottombase{
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 157px;
+	left: 30px;
+	top: 180px;
+	z-index: 2;
+}
+
+
+
+#window2{
+	position: absolute;
+	left: 0px;
+	top: -40px;
+	z-index: 3px;
+	height: 180px;
+	width: 180px;
+}
+
+#windowleft2{
+	position: absolute;
+	background: black;
+	height: 150px;
+	width: 7px;
+	left: 30px;
+	top: 30px;
+	z-index: 5;
+}
+
+
+#windowright2{
+	position: absolute;
+	background: black;
+	height: 150px;
+	width: 7px;
+	left: 180px;
+	top: 30px;
+	z-index: 5;
+
+}
+
+#windowtop2{
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 150px;
+	left: 30px;
+	top: 30px;
+	z-index: 5;
+}
+
+#windowbottom2{
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 157px;
+	left: 30px;
+	top: 180px;
+	z-index: 5;
+}
+
+
+#windowhorizontal2{
+	position: absolute;
+	background: black;
+	height: 7px;
+	width: 157px;
+	left: 30px;
+	top: 105px;
+	z-index: 5;
+}
+
+#windowvertical2{
+	position: absolute;
+	background: black;
+	height: 150px;
+	width: 7px;
+	left: 105px;
+	top: 30px;
+	z-index: 5;
+
+}
+
+#sky{
+	background-color: #57d5ff;
+
+}
+
+#window2:hover{
+	transform: translateY(40px);
+}
+
+
+	-ms-transform: rotate(15deg); 
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+
+-webkit-box-shadow: 2px 0px 4px 3px rgba(219,154,24,1);
+-moz-box-shadow: 2px 0px 4px 3px rgba(219,154,24,1);
+box-shadow: 2px 0px 4px 3px rgba(219,154,24,1);
