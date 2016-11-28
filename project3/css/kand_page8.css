@@ -1,0 +1,10 @@
+body{
+	background-color: black;
+	height: 1060px;
+	width: 1400px;
+}
+
+#composition-x{
+  position: absolute;
+  left: 65px;
+}
