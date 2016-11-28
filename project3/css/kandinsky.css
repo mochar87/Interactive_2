@@ -43,22 +43,24 @@ body{
 
 #title{
   position: absolute;
-  left: 475px;
+  left: 445px;
   top: 25px;
   font-family: TiemposHeadline-Medium;
   font-size: 60px;
   z-index: 3;
+  text-align: center;
 }
 
 #quote{
   position: absolute;
   height: 100px;
   width: 800px;
-  left: 350px;
+  left: 320px;
   top: 125px;
   font-family: TiemposHeadline-RegularItalic;
   font-size: 16px;
   z-index: 3;
+  text-align: center;
 
 }
 
