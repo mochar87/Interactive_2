@@ -1,7 +1,7 @@
 body{
 	background-color: white;
 	z-index: 0;
-	height: 3750px;
+	height: 4350px;
 	width: 1366px;
 }
 
@@ -20,155 +20,241 @@ body{
   src: url("TiemposHeadline-RegularItalic.otf");
 }
 
-#bar-top{
+#museum-name{
   position: fixed;
-  background-color: white;
-  color: black;
-  height: 200px;
-  width: 1366px;
-  top: 0px;
-  z-index: 2;
+  left: -265px;
+  top: 375px;
+  font-family: Helvetica;
+  text-transform: uppercase;
+   writing-mode: bt-lr;
+   -webkit-transform: rotate(90deg); 
+   -moz-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   -o-transform: rotate(90deg);
+   transform: rotate(90deg);
 }
 
-
-#bar-bottom{
-  position: fixed;
-  background-color: white;
-  color: black;
-  height: 500px;
-  width: 1366px;
-  top: 668px;
-  z-index: 2;
-}
 
 #title{
   position: absolute;
-  left: 445px;
-  top: 25px;
-  font-family: TiemposHeadline-Medium;
-  font-size: 60px;
+  left: 0px;
+  top: 0px;
+  font-family: Helvetica;
+  font-size: 260px;
+  line-height: 300px;
   z-index: 3;
   text-align: center;
+  transition: 2s;
 }
+
 
 #quote{
   position: absolute;
   height: 100px;
-  width: 800px;
-  left: 320px;
-  top: 125px;
+  width: 1200px;
+  left: 100px;
+  top: 650px;
   font-family: TiemposHeadline-RegularItalic;
-  font-size: 16px;
+  font-size: 24px;
   z-index: 3;
   text-align: center;
+  transition: 2s;
 
 }
 
 
 #about{
   position: absolute;
-  height: 3550px;
-  width: 400px;
-  left: 200px;
-  top: 400px;
+  height: 4200px;
+  width: 1250px;
+  left: 150px;
+  top: 1050px;
   font-family: TiemposHeadline-Regular;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 30px;
+  line-height: 40px;
+  transition: all 2s ease;
 }
+
+
+
+
+
+#yellow-e{
+  position: absolute;
+  top: 4175px;
+  left: 200px;
+  height: 250px;
+  width: 250px;
+  z-index: 5;
+  background-color: yellow;
+  mix-blend-mode: overlay;
+  transition: all 2s ease;
+  pointer-events: none;
+
+}
+
 
 #composition-iv{
   position: absolute;
-  top: 374px;
-  left: 866px;
-  z-index: 1;
-}
-
-#composition-v{
-  position: absolute;
-  top: 874px;
-  left: 866px;
-  z-index: 1;
-}
-
-#composition-vi{
-  position: absolute;
-  top: 1374px;
-  left: 866px;
-  z-index: 1;
-}
-
-#composition-vii{
-  position: absolute;
-  top: 1874px;
-  left: 866px;
-  z-index: 1;
-}
-
-
-#composition-viii{
-  position: absolute;
-  top: 2347px;
-  left: 866px;
-  z-index: 1;
-}
-
-#composition-ix{
-  position: absolute;
-  top: 2874px;
-  left: 866px;
-  z-index: 1;
-}
-
-#composition-x{
-  position: absolute;
-  top: 3374px;
-  left: 866px;
-  z-index: 1;
-}
-
-
-/*#composition-iv{
-  position: absolute;
-  top: 225px;
+  top: 4175px;
   left: 200px;
 }
 
+
+
+#violet-b{
+  position: absolute;
+  top: 4175px;
+  left: 475px;
+  height: 250px;
+  width: 250px;
+  z-index: 5;
+  background-color: violet;
+  mix-blend-mode: overlay;
+  transition: all 2s ease;
+  pointer-events: none;
+
+}
+
+
 #composition-v{
   position: absolute;
-  top: 225px;
+  top: 4175px;
   left: 475px;
+
+}
+
+
+
+#red-c{
+  position: absolute;
+  top: 4175px;
+  left: 750px;
+  height: 250px;
+  width: 250px;
+  z-index: 5;
+  background-color: red;
+  mix-blend-mode: overlay;
+  transition: all 2s ease;
+  pointer-events: none;
+
 }
 
 #composition-vi{
   position: absolute;
-  top: 225px;
+  top: 4175px;
   left: 750px;
+}
+
+
+#indigo-a{
+  position: absolute;
+  top: 4175px;
+  left: 1025px;
+  height: 250px;
+  width: 250px;
+  z-index: 5;
+  background-color: indigo;
+  mix-blend-mode: hard-light;
+  transition: all 2s ease;
+  pointer-events: none;
 }
 
 #composition-vii{
   position: absolute;
-  top: 225px;
+  top: 4175px;
   left: 1025px;
 }
 
 
+#green-f{
+  position: absolute;
+  top: 4450px;
+  left: 200px;
+  height: 250px;
+  width: 250px;
+  z-index: 5;
+  background-color: green;
+  mix-blend-mode: overlay;
+  transition: all 2s ease;
+  pointer-events: none;
+}
+
 #composition-viii{
   position: absolute;
-  top: 500px;
-  left: 335px;
+  top: 4450px;
+  left: 200px;
+}
+
+
+
+
+#blue-g{
+  position: absolute;
+  top: 4450px;
+  left: 475px;
+  height: 250px;
+  width: 250px;
+  z-index: 5;
+  background-color: blue;
+  mix-blend-mode: overlay;
+  transition: all 2s ease;
+  pointer-events: none;
 }
 
 #composition-ix{
   position: absolute;
-  top: 500px;
-  left: 610px;
+  top: 4450px;
+  left: 475px;
+
+}
+
+
+
+#orange-d{
+  position: absolute;
+  top: 4450px;
+  left: 750px;
+  height: 250px;
+  width: 250px;
+  z-index: 5;
+  background-color: orange;
+  mix-blend-mode: overlay;
+  transition: all 2s ease;
+  pointer-events: none;
 }
 
 #composition-x{
   position: absolute;
-  top: 500px;
-  left: 885px;
+  top: 4450px;
+  left: 750px;
+
 }
+
+#glow{
+  position: absolute;
+  background-color: white;
+  height: 250px;
+  width: 250px;
+  top: 4450px;
+  left: 1025px;
+  mix-blend-mode: overlay;
+  transition: all 2s ease;
+  pointer-events: none;
+}
+
+#composition-n{
+  position: absolute;
+  background-color: white;
+  height: 250px;
+  width: 250px;
+  top: 4450px;
+  left: 1025px;
+  -webkit-box-shadow: 3px 6px 48px -7px rgba(194,194,194,1);
+  -moz-box-shadow: 3px 6px 48px -7px rgba(194,194,194,1);
+  box-shadow: 3px 6px 48px -7px rgba(194,194,194,1);
+}
+
 
 
 /*#composition-iv{
@@ -271,6 +357,56 @@ body{
 
 
 
+
+/*#composition-iv{
+  position: absolute;
+  top: 374px;
+  left: 866px;
+  z-index: 1;
+}
+
+#composition-v{
+  position: absolute;
+  top: 874px;
+  left: 866px;
+  z-index: 1;
+}
+
+#composition-vi{
+  position: absolute;
+  top: 1374px;
+  left: 866px;
+  z-index: 1;
+}
+
+#composition-vii{
+  position: absolute;
+  top: 1874px;
+  left: 866px;
+  z-index: 1;
+}
+
+
+#composition-viii{
+  position: absolute;
+  top: 2347px;
+  left: 866px;
+  z-index: 1;
+}
+
+#composition-ix{
+  position: absolute;
+  top: 2874px;
+  left: 866px;
+  z-index: 1;
+}
+
+#composition-x{
+  position: absolute;
+  top: 3374px;
+  left: 866px;
+  z-index: 1;
+}*/
 
 
 
