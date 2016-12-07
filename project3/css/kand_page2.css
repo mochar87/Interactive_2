@@ -1,24 +1,58 @@
 body{
-	background-color: black;
-	height: 1060px;
-	width: 1400px;
+	background-color: white;
+	height: 1560px;
+	width: 1200px;
 }
+
+@font-face{
+  font-family: TiemposHeadline-Medium;
+  src: url("TiemposHeadline-Medium.otf");
+}
+
+@font-face{
+  font-family: TiemposHeadline-Regular
+  src: url("TiemposHeadline-Regular.otf");
+}
+
+@font-face{
+  font-family: TiemposHeadline-RegularItalic;
+  src: url("TiemposHeadline-RegularItalic.otf");
+}
+
 
 #composition-iv{
   position: absolute;
-  left: 65px;
+  left: 175px;
+
 }
 
 
 
 #home-button{
 	position: absolute;
-	top: 950px;
-	left: 625px;
+	top: 1025px;
+	left: 790px;
 }
 
 #forward-arrow{
 	position: absolute;
-	top: 945px;
-	left: 750px;
+	top: 1020px;
+	left: 1000px;
+}
+
+
+#info{
+	position: absolute; 
+	width: 900px;
+	top: 1200px;
+	left: 400px;
+	font-size: 36px;
+	color: black;
+	opacity: 1;
+	font-family: TiemposHeadline-Regular;
+	text-align: left;
+}
+
+#info-button: ~ div:nth-child(3){
+	opacity: 0;
 }

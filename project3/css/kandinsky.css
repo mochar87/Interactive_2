@@ -26,6 +26,7 @@ body{
   top: 375px;
   font-family: Helvetica;
   text-transform: uppercase;
+  
    writing-mode: bt-lr;
    -webkit-transform: rotate(90deg); 
    -moz-transform: rotate(90deg);
@@ -36,11 +37,11 @@ body{
 
 
 #title{
-  position: absolute;
+  /*position: absolute;*/
   left: 0px;
   top: 0px;
   font-family: Helvetica;
-  font-size: 260px;
+  font-size: 250px;
   line-height: 300px;
   z-index: 3;
   text-align: center;
@@ -49,11 +50,12 @@ body{
 
 
 #quote{
-  position: absolute;
+ /* position: absolute;*/
   height: 100px;
-  width: 1200px;
-  left: 100px;
-  top: 650px;
+  /*width: 1200px;*/
+  /*left: 100px;*/
+  /*top: 650px;*/
+  padding: 50px 100px;
   font-family: TiemposHeadline-RegularItalic;
   font-size: 24px;
   z-index: 3;
@@ -64,11 +66,13 @@ body{
 
 
 #about{
-  position: absolute;
+/*  position: absolute;
   height: 4200px;
   width: 1250px;
   left: 150px;
-  top: 1050px;
+  top: 1050px;*/
+  width: 900px;
+  margin: auto;
   font-family: TiemposHeadline-Regular;
   font-size: 30px;
   line-height: 40px;
@@ -76,12 +80,15 @@ body{
 }
 
 
-
+#comp-box {
+  position: relative;
+  padding: 100px
+}
 
 
 #yellow-e{
   position: absolute;
-  top: 4175px;
+  top: 75px;
   left: 200px;
   height: 250px;
   width: 250px;
@@ -96,7 +103,7 @@ body{
 
 #composition-iv{
   position: absolute;
-  top: 4175px;
+  top: 75px;
   left: 200px;
 }
 
@@ -104,7 +111,7 @@ body{
 
 #violet-b{
   position: absolute;
-  top: 4175px;
+  top: 75px;
   left: 475px;
   height: 250px;
   width: 250px;
@@ -119,7 +126,7 @@ body{
 
 #composition-v{
   position: absolute;
-  top: 4175px;
+  top: 75px;
   left: 475px;
 
 }
@@ -128,7 +135,7 @@ body{
 
 #red-c{
   position: absolute;
-  top: 4175px;
+  top: 75px;
   left: 750px;
   height: 250px;
   width: 250px;
@@ -142,14 +149,14 @@ body{
 
 #composition-vi{
   position: absolute;
-  top: 4175px;
+  top: 75px;
   left: 750px;
 }
 
 
 #indigo-a{
   position: absolute;
-  top: 4175px;
+  top: 75px;
   left: 1025px;
   height: 250px;
   width: 250px;
@@ -162,14 +169,14 @@ body{
 
 #composition-vii{
   position: absolute;
-  top: 4175px;
+  top: 75px;
   left: 1025px;
 }
 
 
 #green-f{
   position: absolute;
-  top: 4450px;
+  top: 350px;
   left: 200px;
   height: 250px;
   width: 250px;
@@ -182,7 +189,7 @@ body{
 
 #composition-viii{
   position: absolute;
-  top: 4450px;
+  top: 350px;
   left: 200px;
 }
 
@@ -191,7 +198,7 @@ body{
 
 #blue-g{
   position: absolute;
-  top: 4450px;
+  top: 350px;
   left: 475px;
   height: 250px;
   width: 250px;
@@ -204,7 +211,7 @@ body{
 
 #composition-ix{
   position: absolute;
-  top: 4450px;
+  top: 350px;
   left: 475px;
 
 }
@@ -213,7 +220,7 @@ body{
 
 #orange-d{
   position: absolute;
-  top: 4450px;
+  top: 350px;
   left: 750px;
   height: 250px;
   width: 250px;
@@ -226,7 +233,7 @@ body{
 
 #composition-x{
   position: absolute;
-  top: 4450px;
+  top: 350px;
   left: 750px;
 
 }
@@ -236,7 +243,7 @@ body{
   background-color: white;
   height: 250px;
   width: 250px;
-  top: 4450px;
+  top: 350px;
   left: 1025px;
   mix-blend-mode: overlay;
   transition: all 2s ease;
@@ -248,7 +255,7 @@ body{
   background-color: white;
   height: 250px;
   width: 250px;
-  top: 4450px;
+  top: 350px;
   left: 1025px;
   -webkit-box-shadow: 3px 6px 48px -7px rgba(194,194,194,1);
   -moz-box-shadow: 3px 6px 48px -7px rgba(194,194,194,1);

@@ -26,6 +26,15 @@ $(document).ready(function(){
 		$('#about').css(
 			'color', 'rgba('+$redValue+','+$blueValue+','+$greenValue+', 1)'
 		);
+
+		$('#title').css(
+			'color', 'rgba('+$redValue+','+$blueValue+','+$greenValue+', 1)'
+		);
+
+		$('#quote').css(
+			'color', 'rgba('+$redValue+','+$blueValue+','+$greenValue+', 1)'
+		);	
+
 		$('#yellow-e').css(
 			//'background-color', 'rgba('+$redValue/2+', 255, '+$greenValue+', 1)'
 			'background-color', 'rgba('+$redValue+','+$blueValue+','+$greenValue+', 1)'
